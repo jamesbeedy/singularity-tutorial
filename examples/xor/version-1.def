@@ -1,5 +1,5 @@
-Bootstrap: library
-From: ubuntu:18.04
+Bootstrap: docker
+From: ubuntu:22.04
 
 %post
     # These first few commands allow us to find the python3-pip package later
